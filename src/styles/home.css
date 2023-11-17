@@ -6,11 +6,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 4rem;
 }
 
 .home div {
   width: 100%;
-  margin: 4rem auto 0 auto;
   max-width: 600px;
 }
 
@@ -35,6 +35,7 @@
   text-decoration: none;
   color: black;
   transition: .3s ease;
+
 }
 
 .home-text a:hover{
@@ -42,38 +43,23 @@
   color: white;
 }
 
-/* .home a {
-  padding: 0.7rem 1.5rem;
-  background-color: rgb(21, 21, 21);
-  border: none;
-  color: white;
-  border-radius: 50px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: 0.4s ease;
-}
-
-.home button:hover {
-  background-color: rgb(179, 179, 179);
-} */
-
-.working-man img{
+.working-man{
   width: 350px;
   max-width: 500px;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .home {
     flex-direction: column;
     gap: 3rem;
   }
 
-  .vector {
+  .working-man img {
     max-width: 100%;
   }
 }
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
   .home h1 {
     font-size: 4.5rem;
   }

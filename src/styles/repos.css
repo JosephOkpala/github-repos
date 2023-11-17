@@ -17,6 +17,7 @@
   margin: 0 auto 1rem auto;
   line-height: 2.5;
   border-top: 1px solid grey;
+  padding-left: 2rem;
 }
 
 .repo-container img {
