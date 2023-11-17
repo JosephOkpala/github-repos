@@ -1,0 +1,50 @@
+header {
+  background-color: rgb(21, 21, 21);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: rgb(21, 21, 21);
+  width: 95%;
+  max-width: 1660px;
+  margin: 0 auto;
+  height: 14vh;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.nav-links a:not(:last-child){
+  margin-right: 5rem;
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: 10vh;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+  }
+
+  .nav-links a {
+    border-radius: 0;
+  }
+
+  .nav-links a:hover {
+    background-color: unset;
+    color: rgb(210, 210, 210);
+  }
+}
