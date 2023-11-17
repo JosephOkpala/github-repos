@@ -34,7 +34,7 @@ const Home = () => {
             information. I would also implement a wildcard route for error
             pages.
           </p>
-          <Link to="/repos">Go to Repositories</Link>
+          <Link to="/repos" data-aos="fade-up" data-aos-once="true" data-aos-delay="150">Go to Repositories</Link>
         </div>
         <div class="working-man">
           <img
