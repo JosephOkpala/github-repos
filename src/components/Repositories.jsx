@@ -70,7 +70,7 @@ const Repositories = () => {
                   <h2>{repo.name}</h2>
                   <button>{repo.visibility}</button>
                 </div>
-                <p style={{ color: "#7D8590" }}>{repo.description}</p>
+                <p className="desc" style={{ color: "#7D8590" }}>{repo.description}</p>
                 {repo.topics && (
                   <p className="topics" style={{ color: "#7D8590" }}>
                     {repo.topics.map((topic, index) => (
