@@ -1,6 +1,5 @@
 .repositories {
   background-color: #21262d #30363d #E6ED73;
-  /* background-color: #111b2e; */
 }
 
 .repo-header {
@@ -44,6 +43,11 @@
   background-color: #21262d;
 }
 
+.desc{
+  max-width: 500px;
+  line-height: 1.8;
+}
+
 .time{
   display: flex;
   align-items: center;
@@ -53,8 +57,8 @@
   padding:0.1rem 0.5rem;
   border-radius: 2em;
   color: #2F81F7;
-  background-color: #b9d6ff;
-  margin-right: 0.125em;
+  background-color: #0d2648;
+  margin-right: 0.4em;
 }
 
 .loading {
