@@ -16,7 +16,6 @@
   margin: 0 auto 1rem auto;
   line-height: 2.5;
   border-top: 1px solid grey;
-  padding-left: 2rem;
 }
 
 .repo-container img {
@@ -126,5 +125,23 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 130px;
+  }
+}
+
+@media(max-width: 850px){
+  .repo-container {
+    margin: 0 auto 1rem 2rem;
+  }
+}
+
+@media(max-width: 560px){
+  .repo-container {
+    margin: 0 2rem 1rem 2rem;
+  }
+}
+
+@media(max-width: 560px){
+  .repo h2 {
+    line-height: 1.8;
   }
 }
